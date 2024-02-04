@@ -549,6 +549,29 @@ footer{
     object-fit: cover;
 }
 
+.original-image,
+.replacement-image {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    transition: opacity 1s ease-in-out;
+}
+
+.replacement-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 39px;
+}
+
+.image1:hover .original-image {
+    opacity: 0;
+}
+
+.image1:hover .replacement-image {
+    opacity: 1;
+}
+
 .image2{
     margin: auto 0;
     width: 380px;
