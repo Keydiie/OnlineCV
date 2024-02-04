@@ -544,6 +544,7 @@ footer{
     border-radius: 10%;
     overflow: hidden;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    animation: imgFloat 7s ease-in-out infinite;
 }
 .image1 img{
     width: 380px;
@@ -571,7 +572,7 @@ footer{
     height: 100%;
     background-size: cover;
     background-color: transparent;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 1s ease-in-out; /* Increased duration to 1s */
     opacity: 1;
 }
 
