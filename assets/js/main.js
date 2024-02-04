@@ -149,3 +149,20 @@ function closePopup() {
   document.body.style.overflow = 'auto'; // Enable scrolling on body
   document.getElementById('overlay').style.display = 'none';
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+  preloadImage('assets/images/MyPhoto1.JPG');
+});
+
+function preloadImage(newSrc) {
+  const img = new Image();
+  img.src = newSrc;
+  img.onload = function () {
+      changeImage(newSrc);
+  };
+}
+
+function changeImage(newSrc) {
+  const container = document.getElementById('avatarContainer');
+  container.style.backgroundImage = `url(${newSrc})`;
+}

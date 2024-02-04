@@ -72,8 +72,9 @@
                     <a href="#contact" class="nav-link">Hire Me</a>
                 </button>
                 <a href="assets/pdf/KIAN LLOYD DUCOT_CV.pdf" download="KIAN LLOYD DUCOT_CV.pdf" class="btn">
-                    Download CV
-                    <i class="uil uil-file-alt"></i>
+                    <span style="text-align: center; display: block; margin: auto;">
+                        Download CV
+                    </span></i>
                 </a>
             </div>
             <div class="social_icons">
@@ -88,12 +89,6 @@
                 <img src="assets/images/MyPhoto.JPG" alt="avatar">
             </div>
           </div>
-          <div class="scroll-icon-box">
-            <a href="#about" class="scroll-btn">
-                <i class="uil uil-mouse-alt"></i>
-                <p>Scroll Down</p>
-            </a>
-          </div>
 
        </section>
        <!-- -------------- ABOUT BOX ---------------- -->
@@ -104,11 +99,11 @@
           <div class="row">
             <div class="col">
                 <div class="skills-box">
-                    <div class="image2">
-                        <img src="assets/images/MyPhoto1.JPG" alt="avatar">
+                    <div class="image2" onmouseover="preloadImage('assets/images/MyPhoto2.JPG')" onmouseout="changeImage('assets/images/MyPhoto1.JPG')">
+                        <div class="avatar-container" id="avatarContainer"></div>
                     </div>
-                </div>                
-            </div>
+                </div>
+            </div>            
             <div class="col">
                 <div class="about-info">
                     <h3>My introduction</h3>
@@ -208,12 +203,12 @@
                 </div>
              </div>
              <div class="colm">
-                <div class="form-control">
+                <div class="skills-box">
                     <div class="image1">
                         <img src="assets/images/MyPhoto3.JPG" alt="avatar">
                     </div>
-                </div>
-             </div>
+                </div>                
+            </div>
           </div>
        </section>
 
