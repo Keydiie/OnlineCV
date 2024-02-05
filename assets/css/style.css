@@ -6,14 +6,14 @@
     --body-color: rgb(250, 250, 250);
     --color-white: rgb(255, 255, 255);
 
-    --text-color-second: rgb(68, 68, 68);
-    --text-color-third: rgb(30, 159, 171);
+    --text-color-second: #0D0D0D;
+    --text-color-third: #008b8b;
 
-    --first-color: rgb(110, 87, 224);
-    --first-color-hover: rgb(40, 91, 212);
+    --first-color: #008b8b;
+    --first-color-hover: #4A495A;
 
-    --second-color: rgb(0, 201, 255);
-    --third-color: rgb(192, 166, 49);
+    --second-color: #008b8b;
+    --third-color: #0D0D0D;
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
 }
@@ -54,11 +54,12 @@ html{
 .btn{
     font-weight: 500;
     padding: 12px 20px;
-    background: #efefef;
+    background: #4A495A;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: .4s;
+    color: #fff;
 }
 .btn>i{
     margin-left: 10px;
@@ -220,9 +221,10 @@ nav{
     border-radius: 50%;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+    color: #008b8b;
 }
 .icon:hover{
-    color: var(--first-color);
+    color: #4A495A;
 }
 
 /* ----- FEATURED IMAGE BOX ----- */
@@ -381,7 +383,7 @@ h3{
 }
 .project-box>i{
     font-size: 50px;
-    color: #00B5E7;
+    color: #008b8b;
     margin-bottom: 25px;
 }
 .project-box label{
@@ -503,12 +505,15 @@ footer{
     align-items: center;
     flex-direction: column;
     row-gap: 30px;
-    background: #F8F8F8;
+    background: var(--body-color);
     padding-block: 40px 60px;
 }
 .top-footer p{
     font-size: 25px;
     font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .middle-footer .footer-menu{
     display: flex;
@@ -518,7 +523,7 @@ footer{
 }
 .footer_menu_list a{
     text-decoration: none;
-    color: var(--text-color-second);
+    color: #008b8b;
     font-weight: 500;
     margin-inline: 20px;
 }
