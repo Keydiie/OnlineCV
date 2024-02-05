@@ -120,6 +120,14 @@ document.getElementById('completed-box').addEventListener('click', function() {
   openPopup('completed-popup');
 });
 
+document.getElementById('certificate-box').addEventListener('click', function() {
+  openPopup('certificate-popup');
+});
+
+document.getElementById('education-box').addEventListener('click', function() {
+  openPopup('education-popup');
+});
+
 document.getElementById('experience-box').addEventListener('click', function() {
   openPopup('experience-popup');
 });

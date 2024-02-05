@@ -633,12 +633,20 @@ footer{
 
 .popup-content {
     display: flex;
+    overflow: auto;
+}
+
+.popup-cont{
+    display: inline-block;
+    margin-right: 20px;
+    overflow: auto;
 }
 
 .popup-column {
     flex: 1;
     padding: 10px;
     box-sizing: border-box;
+    overflow: auto;
 }
 
 .popup-column img {
