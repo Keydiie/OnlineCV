@@ -51,6 +51,9 @@ html{
 /* ---##-- REUSABLE CSS --##--- */
 
 /* ----- GLOBAL BUTTON DESIGN ----- */
+.header{
+    background-color: var(--body-color);
+}
 .btn{
     font-weight: 500;
     padding: 12px 20px;
@@ -525,8 +528,8 @@ footer{
 .footer_menu_list a{
     text-decoration: none;
     color: #008b8b;
-    font-weight: 500;
-    margin-inline: 20px;
+    font-weight: 400;
+    margin-inline: 10px;
 }
 .footer-social-icons{
     display: flex;
@@ -539,8 +542,10 @@ footer{
 
 .btn {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     width: auto;
+    display: inline-block;
+    margin-left: 1px;
 }
 
 .image1{
