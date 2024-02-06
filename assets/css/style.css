@@ -633,20 +633,33 @@ footer{
 
 .popup-content {
     display: flex;
-    overflow: auto;
+    max-height: 350px;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .popup-cont{
     display: inline-block;
     margin-right: 20px;
-    overflow: auto;
+    max-height: 350px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.popup-cont1{
+    margin-right: 20px;
+    max-height: 350px;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .popup-column {
     flex: 1;
     padding: 10px;
     box-sizing: border-box;
-    overflow: auto;
+    max-height: 350px;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .popup-column img {
